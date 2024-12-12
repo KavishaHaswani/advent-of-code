@@ -112,3 +112,6 @@ int main()
     part1(files);
     part2(files);
 }
+
+// optimize part2 by storing empty spaces in a heap for no of spaces with linked list for each element of heap storing locations for each.
+// will go from O(n^2) to O(nlogn) for part2
